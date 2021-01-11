@@ -1,5 +1,6 @@
 // const { gql, ApolloServer } = require("apollo-server");
 const { ApolloServer, gql } = require("apollo-server-lambda");
+var encoding = require("encoding");
 // const middy = require("@middy/core");
 // const cors = require("@middy/http-cors");
 const typeDefs = gql`
